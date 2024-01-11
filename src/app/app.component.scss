@@ -1,5 +1,110 @@
  @import '../../../project-figma/src/assets/scss/tokens.scss';
 
-.test { 
-    color: $global-Primary-Primary-700-value;
-}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  body {
+      font-family: 'Inter';
+      height: 800px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+      
+  
+  }
+  
+  h5 {
+      color: #0F0F0F;
+      /* Headings/h5 */
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 136.023%; /* 21.764px */
+      
+  }
+  
+  p{
+      color: $global-Neutral-Neutral-700-value;
+      font-feature-settings: 'salt' on;
+      /* Text/Small/Regular */
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px; /* 164.286% */
+  
+  }
+  
+  .card {
+      display: flex;
+      width: 344px;
+      padding: 8px 8px 24px 8px;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      border-radius: 16px;
+      background: #FFF;
+      /* Shadow/shadow-sm */
+      box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+  
+  
+  } 
+  
+  .card .cajeros {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+  }
+  
+  .card .cajeros img {
+      width: 100%;
+  }
+  
+  .card .content-card {
+      display: flex;
+      padding: 0px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+      align-self: stretch;
+  
+  }
+  
+  .card .content-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      align-self: stretch;
+  
+  }
+  
+  
+  .button {
+      display: flex;
+      padding: 12px 20px;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      border-radius: 6px;
+      background: $global-Primary-Primary-500-value;
+  
+  } 
+  
+  .button p {
+      color: $global-Neutral-Neutral-50-value;
+      /* Button/Base */
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 12px; /* 100% */
+  
+  }
